@@ -51,7 +51,7 @@ conda config --set show_channel_urls yes
  ```shell
  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
  ```
- 如果要使用wandb，还要下载一个 wandb
+ 如果需要使用wandb，还要下载一个 wandb
  ```shell
  pip install wandb -i https://pypi.tuna.tsinghua.edu.cn/simple
  ```
@@ -71,9 +71,8 @@ conda config --set show_channel_urls yes
 `git clone git@git.zhlh6.cn:a1046700338/yolo5.git` or `git clone https://github.com/a1046700338/yolo5.git`
 
 ## 使用PyCharm打开yolo项目
-File -> Settings -> Project:yolov5 -> Python Interpreter -> add -> Conda Enviroment -> Existing Enviroment -> 选择你的虚拟环境路径 -> ok  
+File -> Settings -> Project:yolo5 -> Python Interpreter -> add -> Conda Enviroment -> Existing Enviroment -> 选择你的虚拟环境路径 -> ok  
 
-运行代码测试 train.py
 
 ## 添加你的数据集
 将你的数据集文件复制到项目根目录下，并在 `data` 目录下创建一个yaml文件，自行命名，  
